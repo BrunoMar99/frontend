@@ -1,0 +1,28 @@
+  @media screen and (max-width: 419px) {
+    section {
+      width: 90%;
+      border: none;
+    }
+  }
+
+  @media screen and (min-width: 420px) and (max-width: 767px) {
+    section {
+      width: 70%;
+      border: 3px solid #2132cf;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    section {
+      width: 50%;
+      border: 3px solid #808080;
+    }
+  }
+
+  a:hover {
+    color: #419412;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
